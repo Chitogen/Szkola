@@ -22,11 +22,11 @@ public class Main {
         System.out.println(student1.imie + "szkoła:"+ nazwaSzkoły1);
         System.out.println("");
 
-        Student student2 = new Student("imię:Zbyszek "," szkoła:ZPP");
+        Student student2 = new Student("imię:Zbyszek ",nazwaSzkoły2);
         System.out.println(student2.imie + "szkoła:"+ nazwaSzkoły2);
         System.out.println("");
 
-        Student student3 = new Student("imię:Mariusz "," szkoła:ZPR");
+        Student student3 = new Student("imię:Mariusz ",nazwaSzkoły3);
         System.out.println(student3.imie + "szkoła:"+ nazwaSzkoły3);
         System.out.println("");
     }
